@@ -2,7 +2,7 @@
 
 This repository presents a **Retrieval-Augmented Generation (RAG)** based system for answering questions from Indian **Lok Sabha parliamentary proceedings**. The system is designed to be **lightweight, CPU-efficient, and suitable for public-sector deployment**.
 
----
+
 
 ## 🚀 Overview
 
@@ -12,7 +12,7 @@ Parliamentary documents are large, unstructured, and difficult to query. This pr
 - Lightweight embeddings (MiniLM)
 - Text generation (DistilGPT-2)
 
----
+
 
 ## ⚙️ System Architecture
 
@@ -34,7 +34,6 @@ Parliamentary documents are large, unstructured, and difficult to query. This pr
 6. **Generation**
    - Model: DistilGPT-2
 
----
 
 ## 📂 Dataset
 
@@ -46,7 +45,7 @@ Parliamentary documents are large, unstructured, and difficult to query. This pr
   - Starred & Unstarred Questions  
   - Bill discussions  
 
----
+
 
 ## 🧪 Evaluation
 
@@ -58,7 +57,7 @@ The system is evaluated on **450 queries**, categorized as:
 | Complex   | Contextual understanding |
 | Compound  | Multi-step reasoning |
 
----
+
 
 ## 📊 Performance
 
@@ -68,7 +67,7 @@ The system is evaluated on **450 queries**, categorized as:
 | Relevance Score | 4.6 / 5 |
 | Latency | ~1200 ms (CPU) |
 
----
+
 
 ## 🖥️ Installation
 
